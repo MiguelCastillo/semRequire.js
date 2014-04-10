@@ -28,7 +28,7 @@ define([
   function _init(_self) {
     // Setup the transition route
     transition({
-      $el: _self.$el.children(".content").empty()
+      $el: _self.$el.children(".content")
     });
   }
 
