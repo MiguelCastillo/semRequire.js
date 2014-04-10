@@ -1,0 +1,25 @@
+{
+  "name": "semRequire",
+  "version": "0.0.1",
+  "homepage": "https://github.com/MiguelCastillo/semRequire.js",
+  "authors": [
+    "Miguel Castillo <manchagnu@gmail.com>"
+  ],
+  "description": "SEM.js Modules & Dependencies with RequireJS sample app",
+  "main": "main.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "",
+    "backbone": "",
+    "underscore": "",
+    "hash.route": ""
+  }
+}
