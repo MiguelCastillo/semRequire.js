@@ -11,7 +11,7 @@ define(function() {
     }
 
     this.current = new View();
-    this.current.$el.empty().appendTo((options || this.options).$el);
+    this.current.$el.appendTo((options || this.options).$el.empty());
     this.current.trigger("enter");
   };
 
