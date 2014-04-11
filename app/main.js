@@ -1,7 +1,8 @@
 define([
   "text!app/main.html",
   "app/routes/transition",
-  "common/js/countdown"
+  "common/js/countdown",
+  "css!app/main.css"
 ], function(tmpl, transition, countdown) {
 
 
