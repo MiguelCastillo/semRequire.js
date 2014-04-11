@@ -18,7 +18,7 @@ define([
       }
       else {
         _self.$el
-          .children(".content")
+          .find(".content .counter")
           .html(val);
       }
     });
