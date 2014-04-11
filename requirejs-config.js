@@ -10,7 +10,10 @@ requirejs.config({
     "css": "libs/js/require.css"
   },
   "shim": {
-    "app/main":  {
+    "main": {
+      deps: ["common/js/cachebuster"]
+    },
+    "common/js/cachebuster": {
       deps: ["backbone"]
     },
     "backbone": {
@@ -25,6 +28,5 @@ requirejs.config({
     "app",
     "dashboard",
     "tests"
-  ],
-  waitSeconds: 15
+  ]
 });
