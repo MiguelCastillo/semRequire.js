@@ -1,6 +1,7 @@
 define([
   "text!dashboard/main.html",
-  "dashboard/views/chat"
+  "dashboard/views/chat",
+  "css!dashboard/main.css"
 ], function(tmpl, ChatView) {
 
   function initialize() {
@@ -9,7 +10,7 @@ define([
       .addClass("dashboard");
 
     this.chatView = new ChatView({
-      el: this.$el.children(".chatroom")
+      el: this.$el.children(".content")
     });
   }
 

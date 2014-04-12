@@ -1,7 +1,36 @@
+body, html {
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 .appMain {
+  padding-top: 32px;
+  position: relative;
 }
 
 .appMain .counter {
   font-size: 12em;
   text-align: center;
+}
+
+.appMain > .header {
+  font-family: monospace;
+  background-color: rgba(240,240,240, 0.9);
+  padding: 8px;
+  height: 32px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.appMain > .content {
 }
