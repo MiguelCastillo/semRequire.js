@@ -8,8 +8,8 @@ define([
 
   function initialize() {
     var _self = this;
-    _self.$el
-      .html(_self.template)
+    this.$el
+      .html($(this.template))
       .addClass("appMain");
 
     // Add a coundown

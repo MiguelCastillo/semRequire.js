@@ -6,6 +6,7 @@ requirejs.config({
     "jquery": "libs/jquery/dist/jquery",
     "hash.route": "libs/hash.route/hash.route",
     "rivets": "libs/rivets/dist/rivets",
+    "md5": "libs/js/md5",
     "text": "libs/js/require.text",
     "css": "libs/js/require.css"
   },
@@ -14,7 +15,7 @@ requirejs.config({
       deps: ["common/js/cachebuster"]
     },
     "common/js/cachebuster": {
-      deps: ["backbone"]
+      deps: ["backbone", "md5"]
     },
     "backbone": {
       deps: ["jquery", "underscore"],
@@ -27,6 +28,7 @@ requirejs.config({
   packages: [
     "app",
     "dashboard",
-    "tests"
+    "tests",
+    "yourmodule"
   ]
 });
