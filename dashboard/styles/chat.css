@@ -1,25 +1,29 @@
-.dashboard .chat table {
+.chat table {
   border-collapse:collapse;
   width:100%;
 }
 
-.dashboard .chat table .avatar {
+.chat table th.from {
   width: 1px;
 }
 
-.dashboard .chat table td {
+.chat table td.from > img {
+  border-radius: 50%;
+}
+
+.chat table td {
   padding: 4px 10px;
 }
 
-.dashboard .chat table tr:nth-child(odd)  {
+.chat table tr:nth-child(odd)  {
   background-color:#f1f1f1;
 }
 
-.dashboard .chat table tr:nth-child(even) {
+.chat table tr:nth-child(even) {
   background-color:#ffffff;
 }
 
-.dashboard .chat table th {
+.chat table th {
   color:#ffffff;
   background-color:#555555;
   border:1px solid #555555;

@@ -15,7 +15,7 @@ requirejs.config({
       deps: ["common/js/cachebuster"]
     },
     "common/js/cachebuster": {
-      deps: ["backbone", "md5"]
+      deps: ["backbone", "md5", "css!libs/font-awesome-4.0.3/css/font-awesome.css"]
     },
     "backbone": {
       deps: ["jquery", "underscore"],

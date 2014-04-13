@@ -3,3 +3,30 @@
   padding: 0px 12px;
   text-align: right;
 }
+
+.dashboard > .mainMenu {
+  font-size: 1.6em;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 32px;
+}
+
+.dashboard > .mainMenu > .content {
+  display: none;
+  font-size: .5em;
+}
+
+.dashboard > .mainMenu:hover,
+.dashboard > .mainMenu:hover > .content {
+  display: block;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #333333;
+  height: 100%;
+  width: 300px;
+}
+
+.dashboard > .mainMenu:hover > i:hover {
+  color: #333333;
+}
+
